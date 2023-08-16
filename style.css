@@ -71,6 +71,71 @@ letter-spacing: -0.28px;
     margin-left: 137px;
 }
 
-.section-buy {
-    background-image: url(#);
+.buy-section {
+    background-image: url(./img/chocolate-covered-cocoa-powder\ 1.jpg);
+    background-repeat: no-repeat;
+}
+
+.buy-text {
+    color: #FFF;
+font-family: Montserrat;
+font-size: 28px;
+font-style: normal;
+font-weight: 500;
+line-height: 34px; /* 121.429% */
+letter-spacing: -0.84px;
+width: 484px;
+padding-top: 381px;
+padding-left: 40px;
+}
+
+.buy-box-button {
+    display: flex;
+    padding-left: 40px;
+padding-bottom: 40px;
+    gap: 14px;
+}
+
+.buy-now-button {
+    display: flex;
+padding: 14px 40px;
+align-items: flex-start;
+gap: 14px;
+border-radius: 100px;
+background: #FD9222;
+border: none;
+color: #FFF;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.buy-how-button {
+    display: flex;
+width: 183px;
+height: 45px;
+padding: 14px 40px;
+align-items: flex-start;
+gap: 14px;
+border-radius: 100px;
+border: 1px solid #FFF;
+background-color: transparent;
+color: #FFF;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.buy-text-scroll {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px; /* 128.571% */
+    letter-spacing: -0.42px;
 }
