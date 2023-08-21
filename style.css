@@ -71,9 +71,18 @@ letter-spacing: -0.28px;
     margin-left: 137px;
 }
 
+.section-buy {
+    padding-top: 32px;
+    padding-bottom: 72px;
+}
+
 .buy-section {
-    background-image: url(./img/chocolate-covered-cocoa-powder\ 1.jpg);
+    background-image: url(./img/chocolate-covered-cocoa-powder1.jpg);
+    border-radius: 30px;
+    width: 1136px;
+
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .buy-text {
@@ -138,4 +147,132 @@ line-height: normal;
     font-weight: 500;
     line-height: 18px; /* 128.571% */
     letter-spacing: -0.42px;
+}
+
+.info-section {
+    background: #1E1823;
+}
+
+.info-list {
+    display: flex;
+    gap: 70px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.info-name {
+    color: #FFF;
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-bottom: 18px;
+margin-top: 22px;
+}
+
+.info-text {
+    color: rgba(255, 255, 255, 0.70);
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.28px;
+width: 308px;
+}
+
+.information-section {
+    padding-top: 128px;
+    padding-bottom: 128px;
+}
+
+.information-title-box {
+    width: 411px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.information-title {
+    color: #111;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; /* 116.667% */
+    letter-spacing: -0.72px;
+    text-transform: uppercase;
+}
+
+.information-title-color {
+    color: #FD9222;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 28px;
+letter-spacing: -0.72px;
+text-transform: uppercase;
+}
+
+.information-text {
+    color: #111;
+text-align: center;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px; /* 128.571% */
+letter-spacing: -0.28px;
+width: 486px;
+}
+
+.information-list {
+    display: flex;
+    gap: 19px;
+    justify-content: center;
+}
+
+.information-article {
+    display: flex;
+padding: 28px 36px 28px 28px;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+gap: 36px;
+border-radius: 15px;
+
+}
+
+.information-article-color-orange {
+    background: #FD9222;
+}
+
+.information-article-color-white {
+    border: 1px solid #FD9222;
+    background: #FFF;
+}
+
+.information-article-color-black {
+    background: #1E1823;
+}
+
+.information-name {
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 18px; /* 128.571% */
+letter-spacing: -0.28px;
+text-transform: uppercase;
+}
+
+.color-white {
+    color: #FFF;
+}
+
+.color-black {
+    color: #111;
 }
