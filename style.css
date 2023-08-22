@@ -277,6 +277,10 @@ text-transform: uppercase;
     color: #111;
 }
 
+.how-made-section {
+    padding-bottom: 128px;
+}
+
 .how-made-box {
     text-align: center;
     margin-left: auto;
@@ -362,4 +366,101 @@ letter-spacing: -0.28px;
 
 .how-made-text-wight-n-3 {
     width: 404px;
+}
+
+.our-products-box {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.our-products-title {
+    color: #111;
+text-align: center;
+font-family: 'Montserrat';
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 28px; /* 116.667% */
+letter-spacing: -0.72px;
+text-transform: uppercase;
+}
+
+.our-products-title-color {
+    color: #FD9222;
+font-family: 'Montserrat';
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 28px;
+letter-spacing: -0.72px;
+text-transform: uppercase;
+}
+
+.our-products-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.our-products-article {
+    width: 270px;
+height: 364px;
+flex-shrink: 0;
+border-radius: 15px;
+border: 1px solid rgba(17, 17, 17, 0.10);
+background: #FFF;
+justify-content: center;
+}
+
+.our-products-img {
+    width: 230px;
+height: 201px;
+flex-shrink: 0;
+padding-top: 32px;
+padding-left: 20px;
+padding-right: 20px;
+}
+
+.our-products-name {
+    color: #111;
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px; /* 133.333% */
+letter-spacing: -0.36px;
+text-transform: uppercase;
+text-align: center;
+margin-bottom: 2px;
+
+}
+
+.our-products-discribtion {
+    color: rgba(17, 17, 17, 0.70);
+font-family: 'Montserrat';
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 14px; /* 116.667% */
+letter-spacing: -0.24px;
+text-align: center;
+margin-bottom: 18px;
+}
+
+.our-products-button {
+    display: flex;
+padding: 8px 20px;
+align-items: flex-start;
+gap: 14px;
+border-radius: 100px;
+border: 1px solid rgba(17, 17, 17, 0.10);
+background: #FAFAFA;
+color: #111;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-align: center;
 }
