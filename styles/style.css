@@ -12,14 +12,6 @@ body {
     margin-right: auto;
 }
 
-li {
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-}
-
 .header-display {
     display: flex;
 }
@@ -30,7 +22,7 @@ a {
 
 .header-logo-list {
     display: flex;
-    margin-right: 188px;
+    margin-right: auto;
 }
 
 .header-logo-style {
