@@ -368,6 +368,10 @@ letter-spacing: -0.28px;
     width: 404px;
 }
 
+.our-products-section {
+    padding-bottom: 128px;
+}
+
 .our-products-box {
     text-align: center;
     margin-left: auto;
@@ -457,10 +461,40 @@ border-radius: 100px;
 border: 1px solid rgba(17, 17, 17, 0.10);
 background: #FAFAFA;
 color: #111;
-font-family: Montserrat;
+font-family: 'Montserrat';
 font-size: 14px;
 font-style: normal;
 font-weight: 600;
 line-height: normal;
 text-align: center;
+}
+
+.top-sellers-box {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.top-sellers-title-color {
+    color: #FD9222;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; /* 116.667% */
+    letter-spacing: -0.72px;
+    text-transform: uppercase;
+}
+
+.top-sellers-title {
+    color: #111;
+font-family: 'Montserrat';
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 28px;
+letter-spacing: -0.72px;
+text-transform: uppercase;
 }
